@@ -14,8 +14,7 @@
   "license": "ISC",
   "scripts": {
     "prepare-client": "cd client && npm install && npm run build",
-    "build": "cd client && npm install && npm run build",
-    "prepare-server": "cd server && npm install",
+    "build": "cd client && npm install && npm run build && npm start",
     "start": "node index.js",
     "dev": "nodemon index.js"
   }
