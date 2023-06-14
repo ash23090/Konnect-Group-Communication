@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3001;
 const path = require("path");
 
 let socketList = {};
-
+// this is in index.js
 app.use(express.static(path.join(__dirname, "public")));
 
 if (process.env.NODE_ENV === "production") {
