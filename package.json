@@ -1,7 +1,16 @@
 {
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  },
   "scripts": {
     "prepare-client": "cd client && npm install && npm run build",
+    "build": "cd client && npm install && npm run build",
     "prepare-server": "cd server && npm install",
-    "start": "node server/index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   }
 }

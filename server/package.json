@@ -1,14 +1,13 @@
 {
   "name": "video-call-server",
   "version": "1.0.0",
-  "description": "video call server",
+  "description": "video-call-server",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
-  "author": "Hyunse Kim",
+  "author": "Ashwin Singh",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
