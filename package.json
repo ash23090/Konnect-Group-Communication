@@ -1,4 +1,8 @@
 {
+  "name": "video-call-server",
+  "version": "1.0.0",
+  "description": "video-call-server",
+  "main": "index.js",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
@@ -6,6 +10,8 @@
     "nodemon": "^2.0.4",
     "socket.io": "^2.3.0"
   },
+  "author": "Ashwin Singh",
+  "license": "ISC",
   "scripts": {
     "prepare-client": "cd client && npm install && npm run build",
     "build": "cd client && npm install && npm run build",
